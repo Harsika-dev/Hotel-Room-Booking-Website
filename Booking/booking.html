@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>TLP Booking Page</title>
+  <link rel='stylesheet' href='https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css'>
+<link rel='stylesheet' href='https://fonts.googleapis.com/css?family=Montserrat:400,700'>
+<link rel="stylesheet" href="sbooking.css">
+
+</head>
+<body>
+
+  <header>
+    <nav>
+      <img src="../Taj_Logo.png" alt="Italian Trulli" class="title_logo">
+      <div>
+        <ul>
+          <li><a href="../index.html">Home</a></li>
+          <!-- <li><a href="#">Booking Page</a></li> -->
+          <!-- <li><a href="#">Experience</a></li>
+          <li><a href="#">Celebrate</a></li>
+          <li><a href="#">Offers</a></li>
+          <li><a href="#">Contact</a></li> -->
+        </ul>
+      </div>
+    </nav>
+  </header>
+
+<!-- partial:index.partial.html -->
+<div class="container-fluid">
+		<!-- <h1 class="text-center">Elite Hotel Booking</h1>
+		<p class="subtitle text-center">Book Your Room Today</p> -->
+
+<div class="contendor row align-items-stretch">
+	<div class="col-md-6 col-md-offset-3 formbox">
+		<div class="content-form">
+			<form action="" class="form-horizontal">
+			<div class="form-group">
+				<label for="" class="col-sm-2 control-label">First Name</label>
+				<div class="col-sm-10">
+      <input type="text" class="form-control" id="txtName" placeholder="First Name" required>
+    </div>
+			</div>
+
+			<div class="form-group">
+				<label class="col-sm-2 control-label">Last Name</label>
+				<div class="col-sm-10">
+				<input type="text" class="form-control" id="txtLName" placeholder="Last Name" required />
+				</div>
+			</div>
+
+			<div class="form-group">
+				<label class="col-sm-2 control-label">Room Id</label>
+				<div class="col-sm-10">
+				<input type="text" class="form-control" id="txtID" placeholder="Room Id"required />
+				</div>
+			</div>
+
+			<div class="form-group">
+				<label class="col-sm-2 control-label">No. of Room(s)</label>
+				<div class="col-sm-10">
+				<input type="number" min="1" max="20" id="txtRoom" class="form-control" placeholder="0" required/>
+				</div>
+			</div>
+
+			<div class="form-group">
+			<label for="" class="col-sm-2 control-label">Check In</label>
+						<div class="col-sm-10">
+				<input type="date" id="txtCheckIn" class="form-control" required/>
+				</div>
+			</div>
+
+			<div class="form-group">
+				<label for="" class="col-sm-2 control-label">Check Out</label>
+					<div class="col-sm-10">
+				<input type="date" id="txtCheckOut" class="form-control"required />
+				</div>
+			</div>
+
+			<div class="form-group">
+			<label for="" class="col-sm-2 control-label">Adults</label>
+				<div class="col-sm-10">
+				<input type="number" max="100" id="txtAdult" min="1"class="form-control" placeholder="0" required/>
+				</div>
+			</div>
+				<div class="form-group">
+			<label for="" class="col-sm-2 control-label">Children</label>
+				<div class="col-sm-10">
+				<input type="number" max="100" id="txtChildren" min="0"class="form-control" placeholder="0" required />
+				</div>
+
+			</div>
+			<!-- <button type="button" class="btn btn-warning btn-lg btn-block" id="saved">Send</button> -->
+      <div>
+        <a class="Explore" href="submitted.html">Submit</a>
+      </div>
+
+		</form>
+		</div>
+	</div>
+
+</div>
+</div>
+<!-- partial -->
+<script src="JQuery/jquery-3.6.0.min.js"></script>
+  <script  src="jbooking.js"></script>
+
+</body>
+</html>
